@@ -1,0 +1,69 @@
+.login
+{
+  margin: 5%;
+}
+.mb-4.loginInput
+{
+    padding: 2%;
+    margin: 0;
+    width: 100%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px !important;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    background: #efefef;
+}
+.person-img
+{
+  width: 70%;
+}
+.hisys-img
+{
+  width:30%;
+  margin-left: 15%;
+  margin-bottom: 5%;
+}
+.ForgetBtn {
+  border: none !important;
+  background-color: transparent !important;
+  color: #F53844;
+  float: right;
+  margin-top: -4%;
+  margin-bottom: 5%;
+}
+.rememberMe {
+  border: none !important;
+  background-color: transparent !important;
+  color: #F53844;
+  float: left;
+  margin-top: -4%;
+  margin-bottom: 5%;
+}
+/* For Mobile devices */
+@media only screen and (min-device-width:320px) and (max-device-width: 480px) {
+
+  .person-img {
+    width: 226px;
+    margin-left: 55%;
+  }  
+  .hisys-img {
+    width: 100%;
+    margin-left: 112px;
+    margin-bottom: 16%;
+}
+}
+
+/* For Tablets or iPad:  - 768px */
+@media only screen and (min-device-width:480px) and (max-device-width: 768px) {
+}
+/* For Laptop or small-size screen: 768px -1024px */
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) {
+}
+/* For Desktop or large-size screen: 1024px -1200px */
+@media only screen and (min-device-width:1024px) and (max-device-width: 1200px) {
+}
+.ErrorMessage
+{
+  color: red;
+}

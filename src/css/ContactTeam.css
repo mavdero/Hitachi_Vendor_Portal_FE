@@ -1,0 +1,72 @@
+.mb-4.Contactinputbox
+{
+    width: 100% !important;
+    text-indent: 15px;
+    width: 100%;
+    border: 1px solid rgb(172, 170, 170);
+    border-radius: 25px ;
+    font-family: inherit ; 
+    font-size: inherit;
+    line-height: inherit;
+    background: #efefef;
+    padding-left: 2%; 
+    padding: 1% !important;
+}
+.btn.Contactbtn
+{
+    background-color:#575757;
+    color: #efefef;
+}
+.btn.Contactbtn:hover
+{
+    background-color:#575757;
+    color: #efefef;
+}
+.Contact_title {
+    color:black;
+    margin-left:0px !important;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .notEditable label {
+    color: black;
+  }
+  .notEditable input {
+    pointer-events: none;
+  }
+  .notEditable button {
+    pointer-events: none;
+    opacity: 0.5;
+  }
+  
+  .editable input{
+    pointer-events: auto !important;
+    color: black;
+  }
+  .editable input {
+    background-color: white;
+  }
+  .input-group.mb-4.emailusername{
+    width: 100% !important;
+    text-indent: 15px;
+    width: 100%;
+    border: 1px solid rgb(172, 170, 170);
+    border-radius: 25px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    background: #efefef;
+    padding-left: 2%;
+    padding: 0% !important;
+  }
+  .form-control.Contactinputbox
+  {
+    border: none;
+    margin-left: 1px;
+    border-radius: 17px;
+    background-color: transparent;
+  }
+  #basic-addon2
+  {
+    border: none;
+  }

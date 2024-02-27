@@ -1,0 +1,75 @@
+.userBackground {
+  background-size: cover;
+  background-position: top;
+  min-height: 100%;
+  height: 100vh !important;
+  position: relative;
+  width: 100%;
+}
+
+.content {
+  text-align: center;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.userTitle {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.agreebtn {
+  display: block;
+  margin: 0 auto;
+}
+
+.redirectButton.Yes {
+  border: 1px solid gray;
+  border-radius: 7%;
+  font-size: 0.875;
+  word-wrap: break-word;
+  width: 200px;
+  max-width: 100%;
+}
+
+.redirectButton.No {
+  border: 1px solid gray;
+  border-radius: 7%;
+  font-size: 0.875;
+  word-wrap: break-word;
+  width: 200px;
+  max-width: 100%;
+}
+
+.redirectButton.No:hover {
+  border: 1px solid gray;
+  border-radius: 7%;
+  font-size: 0.875;
+  word-wrap: break-word;
+  width: 200px;
+  max-width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.redirectButton.Yes:hover {
+  border: 1px solid gray;
+  border-radius: 7%;
+  font-size: 0.875;
+  word-wrap: break-word;
+  width: 200px;
+  max-width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.hitachi-logo-icon {
+  max-width: 40%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}

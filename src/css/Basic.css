@@ -1,0 +1,449 @@
+* {
+  box-sizing: border-box;
+}
+.mandatoryField
+{
+color: #F53844;
+}
+.fieldHeader
+{
+  color: #000;
+  font-weight: bold;
+}
+.mb-12.g {
+  margin-bottom: 0% !important;
+}
+.btn.basicbtn
+  {
+    background-color:#575757;
+    color: #efefef;
+  }
+  .btn.basicbtn:hover
+  {
+    background-color:#575757;
+    color: #efefef;
+  }
+.basic-information-label {
+  cursor: pointer;
+  position: relative;
+  line-height: 16px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.vendor-det {
+  background-color: #f0f3f6;
+  font-size: inherit;
+  color: #000;
+}
+
+.mb-0.info {
+  font-size: inherit;
+  font-weight: bold;
+}
+
+.ribbon {
+  background: #1a1c18;
+  clip-path: polygon(62% 0, 69% 51%, 63% 100%, 0% 100%, 5% 50%, 0% 0%);
+  font-family: "font_condensed";
+  color: #dddeda;
+  letter-spacing: 0.10em;
+  font-size: inherit;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 10px;
+  text-align-last: justify;
+  width: 450px;
+}
+
+.dotActive {
+  height: 12px;
+  width: 12px;
+  position: relative;
+  left: 50px;
+  background-color: #23B100;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dotInActive {
+  height: 12px;
+  width: 12px;
+  position: relative;
+  left: 50px;
+  background-color: #F53844;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.labelName {
+  font-size: inherit;
+  display: inline-block;
+  align-items: center;
+  padding: 5%;
+  position: relative;
+  left: 46px;
+}
+
+.ribbonMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ribbon.basic-information-label.left {
+  position: relative;
+  float: left;
+  left: 150px;
+}
+
+.ribbon.basic-information-label.right {
+  position: relative;
+  float: right;
+}
+
+/* input {
+  margin: 0 !important;
+  width: 100% !important;
+  border: 1px solid rgb(172, 170, 170) !important;
+  border-radius: 25px !important;
+  font-family: inherit !important;
+  font-size: inherit !important;
+  line-height: inherit !important;
+  background: #efefef !important;
+  padding-left: 2% !important;
+  padding: 0% !important;
+} */
+
+.mb-4.VendorInput{
+  width: 100% !important;
+  text-indent: 15px;
+  width: 100%;
+  border: 1px solid rgb(172, 170, 170);
+  border-radius: 25px ;
+  font-family: inherit ; 
+  font-size: inherit;
+  line-height: inherit;
+  background: #efefef;
+  padding-left: 2%; 
+  padding: 3% !important;
+}
+.mb-4.VendorInputCompanyName{
+  width: 100% !important;
+  text-indent: 15px;
+  width: 100%;
+  border: 1px solid rgb(172, 170, 170);
+  border-radius: 25px ;
+  font-family: inherit ; 
+  font-size: inherit;
+  line-height: inherit;
+  background: #efefef;
+  padding-left: 2%; 
+  padding: 1.5% !important;
+}
+select {
+  width: 100%;
+  height: 45px;
+  border: 1px solid rgb(172, 170, 170);
+  border-radius: 25px;
+  background: #efefef;
+}
+
+.card.basic {
+  box-shadow: none !important;
+}
+
+.card-header {
+  border-bottom: none !important;
+}
+
+.imageUpload {
+  margin-top: 21%;
+  background: #eeeded !important;
+}
+
+.camera-img {
+  width: 30%;
+  margin-left: 31%;
+  margin-bottom: 5%;
+}
+.addressLine
+{
+  border-radius:35px;
+  width: 100%;
+  background: #efefef;
+  padding-left: 4%; 
+  padding-top: 1%; 
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+
+.resetButton {
+  background-color: rgb(60, 60, 60);
+  color: white;
+  border-radius: 5px;
+  width: 50%;
+  padding: 1%;
+}
+
+/* =Responsive Structure
+----------------------------------------------- */
+@media only screen and (min-device-width: 550px) and (max-device-width: 799px) {
+  .ribbon.basic-information-label.left {
+    position: relative;
+    float: left;
+    left: 63px;
+  }
+
+  .ribbon {
+    height: 0px !important;
+    background: #1a1c18;
+    clip-path: polygon(62% 0, 71% 51%, 63% 100%, 0% 100%, 5% 50%, 0% 0%);
+    font-family: "font_condensed";
+    color: #dddeda;
+    letter-spacing: 0.10em;
+    font-size: inherit;
+    display: flex;
+    align-items: center;
+    width: 400px;
+    position: relative;
+    top: 10px;
+    text-align-last: justify;
+    padding: 17px !important;
+  }
+
+  .labelName {
+    font-size: inherit;
+    display: inline-block;
+    align-items: center;
+    padding: 2%;
+  }
+
+  .dotInActive {
+    height: 12px;
+    width: 12px;
+    background-color: #F53844;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+  }
+
+  .dotActive {
+    height: 12px;
+    width: 12px;
+    background-color: #23B100;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+  }
+}
+
+@media only screen and (min-device-width: 50px) and (max-device-width: 370px) {
+  .ribbon {
+    height: 0px !important;
+    background: #1a1c18;
+    clip-path: polygon(62% 0, 71% 51%, 63% 100%, 0% 100%, 5% 50%, 0% 0%);
+    font-family: "font_condensed";
+    color: #dddeda;
+    letter-spacing: 0.10em;
+    font-size: inherit;
+    display: flex;
+    align-items: center;
+    width: 400px;
+    position: relative;
+    top: 10px;
+    text-align-last: justify;
+    padding: 17px !important;
+  }
+}
+
+@media only screen and (min-device-width: 500px) and (max-device-width: 549px) {
+  .ribbon.basic-information-label.left {
+    position: relative;
+    float: left;
+    left: 63px;
+  }
+
+  .ribbon {
+    height: 0px !important;
+    background: #1a1c18;
+    clip-path: polygon(62% 0, 71% 51%, 63% 100%, 0% 100%, 5% 50%, 0% 0%);
+    font-family: "font_condensed";
+    color: #dddeda;
+    letter-spacing: 0.10em;
+    font-size: inherit;
+    display: flex;
+    align-items: center;
+    width: 400px;
+    position: relative;
+    top: 10px;
+    text-align-last: justify;
+    padding: 17px !important;
+  }
+
+  .dotInActive {
+    height: 12px;
+    width: 12px;
+    background-color: #F53844;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    right: 8px;
+  }
+
+  .dotActive {
+    height: 12px;
+    width: 12px;
+    background-color: #23B100;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    right: 8px;
+  }
+
+  .labelName {
+    font-size: inherit;
+    display: inline-block;
+    align-items: center;
+    padding: 1%;
+    left: -5px;
+    position: relative;
+  }
+}
+
+@media only screen and (min-device-width:400px) and (max-device-width:499px) {
+  .ribbon.basic-information-label.left {
+    position: relative;
+    float: left;
+    left: 49px;
+  }
+
+  .ribbon {
+    height: 0px !important;
+    background: #1a1c18;
+    clip-path: polygon(62% 0, 71% 51%, 63% 100%, 0% 100%, 5% 50%, 0% 0%);
+    font-family: "font_condensed";
+    color: #dddeda;
+    letter-spacing: 0.10em;
+    font-size: inherit;
+    display: flex;
+    align-items: center;
+    width: 409px;
+    position: relative;
+    top: 10px;
+    text-align-last: justify;
+    padding: 13px !important;
+  }
+
+  .dotInActive {
+    height: 9px;
+    width: 9px;
+    background-color: #F53844;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    margin-left: -23%;
+  }
+
+  .dotActive {
+    height: 9px;
+    width: 9px;
+    background-color: #23B100;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    margin-left: -23%;
+  }
+
+  .labelName {
+    font-size: inherit;
+    display: inline-block;
+    align-items: center;
+    padding: 32%;
+    left: -5px;
+    position: relative;
+  }
+}
+
+@media only screen and (min-device-width:350px) and (max-device-width:399px) {
+  .ribbon.basic-information-label.left {
+    position: relative;
+    float: left;
+    left: 49px;
+  }
+
+  .ribbon {
+    height: 0px !important;
+    background: #1a1c18;
+    clip-path: polygon(62% 0, 71% 51%, 63% 100%, 0% 100%, 5% 50%, 0% 0%);
+    font-family: "font_condensed";
+    color: #dddeda;
+    letter-spacing: 0.10em;
+    font-size: inherit;
+    display: flex;
+    align-items: center;
+    width: 409px;
+    position: relative;
+    top: 10px;
+    text-align-last: justify;
+    padding: 20px !important;
+  }
+
+  .dotInActive {
+    height: 9px;
+    width: 9px;
+    background-color: #F53844;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: 0%;
+    left: 0% !important;
+  }
+
+  .dotActive {
+    height: 9px;
+    width: 9px;
+    background-color: #23B100;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: 0%;
+    right: 8px;
+    left: 0% !important;
+  }
+
+  .labelName {
+    font-size: inherit;
+    display: inline-block;
+    align-items: center;
+    padding: 11%;
+    margin-left: -44%;
+    position: relative;
+  }
+
+  .notEditable label {
+    color: black;
+  }
+  .notEditable input {
+    pointer-events: none;
+  }
+  .notEditable button {
+    pointer-events: none !important;
+    opacity: 0.5 !important;
+  }
+  .editable input{
+    pointer-events: auto !important;
+    color: black;
+  }
+  .editable input {
+    background-color: white;
+  }
+}
+
+@media only screen and (min-device-width: 801px) and (max-device-width:991px) {}

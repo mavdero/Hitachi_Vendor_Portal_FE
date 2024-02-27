@@ -1,0 +1,85 @@
+.ComplianceNote
+{
+    color: #b1000e;
+}
+.ViewBtn
+{
+    background-color: #b1000f1e !important;
+    color: #000000 !important;
+    background-image: url('../img/Vector.png');
+    background-repeat: no-repeat;
+    background-position: 7px center; 
+    background-size: 8%; 
+}
+.Compliance_fileupload
+{
+    border: dashed 2px #eb9198 !important;  
+}
+.UploadBtn
+{
+    background-color: #b1000e !important;
+}
+.Compliance_title
+{
+    color:black;
+    margin-left:0px !important;
+    font-size: 20px;
+    font-weight: 700;
+}
+.ValidityofDeclaration
+{
+    margin-bottom: 0%!important;
+}
+.compliancebtn
+{
+  text-transform: unset !important;
+  font-size: 15px;
+  background-color: #4f4f4f !important;
+  color: rgb(255, 255, 255)!important;
+}
+
+.comp-input input[type='file'] {
+    display: none;
+  }
+  
+  .comp-input label {
+    cursor: pointer;
+    background-color: #b1000e;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 6% 14% !important;
+    text-align: center;
+    border: 1px solid #b1000e;
+    font-size: 12px;
+    text-transform: uppercase;
+    position: relative;
+    top: 8px;
+    color: #fff;
+  }
+  
+  .comp-input .deleteFile:focus {
+    outline: none !important;
+  }
+  .comp-input .deleteFile {
+    cursor: pointer;
+    text-transform: unset !important;
+    background-color: #b1000e !important;
+    color: white !important;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 3% 10%;
+    text-align: center;
+    border: 1px solid #b1000e;
+    font-size: 16px;
+    position: relative;
+    top: 32px;
+    outline: none !important;
+  }
+
+  .cgTcOH{
+    display: none !important;
+}
+
+ /* .bpxkGG{
+display:none !important;
+} */

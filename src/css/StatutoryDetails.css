@@ -1,0 +1,470 @@
+.statutory-details-name {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: inherit;
+  display: inline-block;
+  margin-top: 40px;
+  margin-bottom: 2%;
+  color: #000;
+}
+
+.msme-status-name {
+  font-size: 24px;
+  line-height: 16px;
+  font-family: 'Open Sans';
+  color: #000;
+  text-align: left;
+  display: inline-block;
+}
+.statutory-Note {
+  color: #b1000e;
+}
+.button {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.button-space {
+  border-radius: 21px;
+  display: flex;
+  flex-direction: column;
+  padding: 9px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+
+.registered,
+.registered-radio {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.registered-radio {
+  flex-direction: row;
+  align-items: center;
+  gap: 0;
+}
+
+.unregistered {
+  position: relative;
+  font-size: 24px;
+  letter-spacing: 0.15px;
+  line-height: 24px;
+  font-family: 'Open Sans';
+  color: #000;
+  text-align: left;
+  display: inline-block;
+}
+
+.msme-radio-button,
+.radio-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40px;
+}
+
+.msme-radio-button {
+  flex-direction: column;
+  gap: 16px;
+}
+
+.msme-no1 {
+  position: relative;
+  font-size: 24px;
+  line-height: 16px;
+  font-family: 'Open Sans';
+  color: #000;
+  text-align: left;
+  display: inline-block;
+}
+
+.msme-no {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.statutory-input {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  background-color: #f8f7f7;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 25px;
+  box-sizing: border-box;
+  width: 411px;
+  height: 56px;
+  font-size: 30px;
+}
+
+.tan-box,
+.upload-tan-box {
+  position: absolute;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.tan-box {
+  top: 0;
+  left: 0;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.upload-tan-box input[type='file'] {
+  display: none;
+}
+
+.upload-tan-box {
+  padding: 15px 20px 21px 40px;
+  /* position: absolute; */
+  font-size: large;
+
+  top: 20px;
+  left: 435px;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid rgba(177, 0, 14, 0.44);
+  box-sizing: border-box;
+  cursor: pointer;
+  width: 173px;
+  height: 58px;
+  margin: 4px;
+}
+
+.tan-no,
+.tax-box {
+  position: relative;
+  width: 570px;
+  height: 82px;
+  flex-shrink: 0;
+}
+
+.tax-box {
+  width: 411px;
+  height: 56px;
+}
+
+.tax-residency-certi-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.tax-residency-certificate,
+.upload-trc-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.tax-residency-certificate {
+  align-items: flex-end;
+  gap: 24px;
+}
+
+.msme-box,
+.msme-status-box {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.msme-status-box {
+  top: 112px;
+  left: 886px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.msme-box {
+  top: 282px;
+  left: 1332px;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.registered2 {
+  margin: 0;
+  position: relative;
+  font-size: 24px;
+  letter-spacing: 0.15px;
+  line-height: 24px;
+  font-family: 'Open Sans';
+  color: #000;
+  text-align: left;
+  display: inline-block;
+}
+
+.img {
+  position: absolute;
+  top: 13px;
+  left: 367px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+
+.frame-input input[type='file'] {
+  display: none;
+}
+
+.frame-input label {
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 2% 10%;
+  text-align: center;
+  border: 1px solid #b1000e;
+  font-size: 16px;
+  position: relative;
+  top: 32px;
+  color: #b1000e;
+}
+
+.frame-input .deleteFile:focus {
+  outline: none !important;
+}
+.frame-input .deleteFile {
+  cursor: pointer;
+  text-transform: unset !important;
+  background-color: #b1000e !important;
+  color: white !important;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 2% 10%;
+  text-align: center;
+  border: 1px solid #b1000e;
+  font-size: 16px;
+  position: relative;
+  top: 32px;
+  outline: none !important;
+}
+
+.frame-input2 input[type='file'] {
+  display: none;
+}
+
+.statutoryInput {
+  border: 0.5px solid gray;
+  margin-left: 5px !important;
+  border-radius: 25px !important;
+}
+
+.statutoryInput .statInput:focus {
+  border: none !important;
+  border-radius: none !important;
+  outline: none !important;
+  outline-offset: none !important;
+}
+
+Form.Control:focus {
+  border: none !important;
+  border-radius: none !important;
+  outline: none !important;
+  outline-offset: none !important;
+  outline: none !important;
+}
+
+.frame-input2 label {
+  position: absolute;
+  cursor: pointer;
+  font-size: large;
+  text-align: center;
+  top: 20px;
+  left: 435px;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid rgba(177, 0, 14, 0.44);
+  box-sizing: border-box;
+  width: 175px;
+  height: 58px;
+  margin: 4px;
+  padding-top: 15px;
+}
+
+.rectangle-input5 {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  background-color: #f8f7f7;
+  position: relative;
+  border-radius: 25px;
+  box-sizing: border-box;
+  width: 411px;
+  height: 56px;
+  flex-shrink: 0;
+}
+
+.vendor-gst-type-box {
+  position: absolute;
+  top: 0;
+  left: 72px;
+  height: 729px;
+  display: flex;
+  flex-direction: column;
+  padding: 56px 0;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 38px;
+}
+
+.note-if-the {
+  margin-block-start: 0;
+  margin-block-end: 15px;
+  margin-top: 90px;
+}
+
+.note-if-the-vendor-is-not-reg {
+  margin: 0;
+  position: absolute;
+  top: 771px;
+  left: 15px;
+  font-size: 18px;
+  line-height: 35px;
+  font-family: 'Open Sans';
+  color: #b1000e;
+  text-align: left;
+  display: inline-block;
+  width: 1688px;
+  height: 28px;
+}
+.staframe-div {
+  position: relative;
+  width: 1718px;
+  height: 803px;
+  flex-shrink: 0;
+}
+.inner-box,
+.inner-box-with-name {
+  height: 781px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.inner-box-with-name {
+  height: 841px;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.cancel {
+  position: relative;
+  font-size: 24px;
+  line-height: 16px;
+  font-family: 'Open Sans';
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+}
+
+.cancel-button,
+.statutory-box {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.cancel-button {
+  cursor: pointer;
+  border: 0;
+  padding: 24px 44px;
+  background-color: #575757;
+  box-sizing: border-box;
+  margin-top: 1000px;
+}
+
+.statutory-box {
+  gap: 32px;
+}
+
+.decision-buttons {
+  float: right;
+  margin-right: 90px;
+}
+
+.statutory-box {
+  position: absolute;
+  top: 160px;
+  left: 101px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 25px;
+  background-color: #fff;
+}
+
+.statutory-details {
+  position: relative;
+  background-color: #f3f4f7;
+  width: 100%;
+  height: 1240px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 36px;
+  color: #000;
+  font-family: 'Open Sans';
+}
+
+.statutoryButton {
+  background-color: #575757 !important;
+}
+.sbtn {
+  position: relative;
+  float: right;
+  margin-bottom: 5%;
+}
+.statutorybtn {
+  text-transform: unset !important;
+  font-size: 15px;
+  background-color: #4f4f4f !important;
+  color: #fff !important;
+}
+.DownloadDisclosure {
+  position: relative;
+  top: 36%;
+  border: 1px solid #b1000e !important;
+  background-color: transparent !important;
+  color: #b1000e !important;
+}
+
+.notEditable label {
+  color: black;
+}
+.notEditable input {
+  pointer-events: none;
+}
+.notEditable button {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.editable input {
+  pointer-events: auto !important;
+  color: black;
+}
+.editable input {
+  background-color: white;
+}
+.panhidetrue input{
+  pointer-events: none !important;
+  background-color: #f8f7f7 !important;
+}
+.panhidefalse input{
+    pointer-events: auto !important;
+}

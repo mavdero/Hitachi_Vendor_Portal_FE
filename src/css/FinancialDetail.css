@@ -1,0 +1,81 @@
+  .financial_fileupload {
+    min-width: auto !important;
+    max-width: auto !important;
+    border: dashed 2px #B1000E !important;
+  }
+  .uploadFile {
+    background-color: #B1000E !important;
+    color: white !important;
+  }
+  .financial_title {
+    color:black;
+    margin-left:0px !important;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .financial_subtitle{
+    margin-left:0px !important;
+    font-size: 12px;
+  }
+  .financialbtn {
+    text-transform: unset !important;
+    font-size: 15px;
+  }
+  .lkjDVC {
+    border: dashed 2px #b1000e !important;
+  }
+  .inputbox
+  {
+    border-radius: 15px;
+    background: #efefef;
+    border: 1px solid rgb(172, 170, 170);
+  }
+  .btn.financialbtn
+  {
+    background-color:#575757;
+    color: #efefef;
+  }
+  .btn.financialbtn:hover
+  {
+    background-color:#575757;
+    color: #efefef;
+  }
+
+  .finance-input input[type='file'] {
+    display: none;
+  }
+  
+  .finance-input label {
+    cursor: pointer;
+    background-color: #b1000e;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 2.5% 5.5% !important;
+    text-align: center;
+    border: 1px solid #b1000e;
+    font-size: 12px;
+    text-transform: uppercase;
+    position: relative;
+    top: -4px !important;
+    left: 10px !important;
+    color: #fff;
+  }
+  
+  .finance-input .deleteFile:focus {
+    outline: none !important;
+  }
+  .finance-input .deleteFile {
+    cursor: pointer;
+    text-transform: unset !important;
+    background-color: #b1000e !important;
+    color: white !important;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 2% 10%;
+    text-align: center;
+    border: 1px solid #b1000e;
+    font-size: 16px;
+    position: relative;
+    top: 32px;
+    outline: none !important;
+  }

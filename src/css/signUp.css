@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+.signup-img {
+  width: 100%;
+  margin-top: 50%;
+}
+
+.hitachi-logo {
+  width: 30%;
+  margin-top: 10%;
+  margin-left: 24%;
+}
+
+.textReg {
+  margin-left: 24%;
+  margin-top: 2%;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.signupButton {
+  background-color: rgb(60, 60, 60);
+  color: white;
+  border-radius: 5px;
+  width: 40%;
+  margin-left: 52%;
+  padding: 1%;
+}
+
+.mb-4.signupInput {
+  padding: 2%;
+  margin: 0;
+  width: 100%;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px !important;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  background: #efefef;
+}
+.select {
+  border-radius: 0;
+  margin-top: 10;
+}
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

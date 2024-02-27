@@ -1,0 +1,215 @@
+.communication-details2 {
+  cursor: pointer;
+  position: relative;
+  line-height: 16px;
+  font-weight: 600;
+  display: inline-block;
+
+}
+
+.comframe-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.communication-details {
+  position: absolute;
+  top: 236px;
+  left: 56px;
+  margin-top: -80px;
+  align-items: center;
+}
+
+.contact-name,
+.finance-spoc {
+  cursor: pointer;
+  position: relative;
+  line-height: 16px;
+  font-family: "Open Sans";
+  color: #000;
+  text-align: left;
+  display: inline-block;
+}
+
+.finance-spoc {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.contact-name {
+  font-size: 24px;
+}
+
+.contact-input {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  background-color: #f8f7f7;
+  position: relative;
+  border-radius: 25px;
+  box-sizing: border-box;
+  width: 411px;
+  height: 56px;
+  flex-shrink: 0;
+}
+
+.finance-spoc1,
+.comframe-div1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.comframe-div1 {
+  width: 411px;
+  height: 117px;
+  flex-shrink: 0;
+}
+
+.email {
+  position: relative;
+  font-size: 24px;
+  line-height: 16px;
+  font-family: "Open Sans";
+  color: #000;
+  text-align: left;
+  display: inline-block;
+}
+
+.email-input {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  background-color: #f8f7f7;
+  border-radius: 25px;
+  box-sizing: border-box;
+  width: 431px;
+  height: 55px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.finace-spoc {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 42px;
+}
+
+.email1 {
+  position: relative;
+  font-size: 24px;
+  line-height: 16px;
+  text-transform: capitalize;
+  font-family: "Open Sans";
+  color: #000;
+  text-align: left;
+  display: inline-block;
+}
+
+.email-input1 {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  background-color: #f8f7f7;
+  border-radius: 25px;
+  box-sizing: border-box;
+  width: 424px;
+  height: 55px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.operation-spoc1 {
+  width: 1790px;
+  height: 87px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 42px;
+}
+
+.communemail-input3 {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  background-color: #f8f7f7;
+  border-radius: 25px;
+  width: 420px;
+  height: 56px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.communemail-input3,
+.email-input4,
+.communform {
+  box-sizing: border-box;
+}
+
+.email-input4 {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  background-color: #f8f7f7;
+  border-radius: 25px;
+  width: 420px;
+  height: 55px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.communform {
+  position: absolute;
+  top: 230px;
+  left: 43px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+}
+
+.comcancel1 {
+  position: relative;
+  font-size: 24px;
+  line-height: 16px;
+  font-family: "Open Sans";
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+}
+
+.combuttons,
+.comcancel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.comcancel {
+  cursor: pointer;
+  border: 0;
+  padding: 24px 44px;
+  background-color: #575757;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.combuttons {
+  position: absolute;
+  top: 1100px;
+  left: 1345px;
+  justify-content: flex-start;
+  gap: 44px;
+}
+
+.vendor-detail-2 {
+  position: relative;
+  background-color: #f0f3f6;
+  width: 100%;
+  height: 1287px;
+  text-align: left;
+  font-size: 36px;
+  color: #000;
+  font-family: "Open Sans";
+}

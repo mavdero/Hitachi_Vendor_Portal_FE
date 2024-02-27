@@ -1,0 +1,122 @@
+.inputbox {
+  width: 100% !important;
+  text-indent: 15px;
+  width: 100%;
+  border: 1px solid rgb(172, 170, 170);
+  border-radius: 25px ;
+  font-family: inherit ; 
+  font-size: inherit;
+  line-height: inherit;
+  background: #efefef;
+  padding-left: 2%; 
+  padding: 1% !important;
+}
+.banklabel {
+  color:black !important;
+}
+.pagebg {
+  background-color: #f3f4f7 !important;
+}
+.payment-will-be-processed-base{
+  color:#B1000E;
+  font-size: 12px;
+}
+.lkjDVC {
+  min-width: auto !important;
+  max-width: auto !important;
+  border: dashed 2px #B1000E !important;
+}
+.uploadFile {
+  text-transform: unset !important;
+  background-color: #B1000E !important;
+  color: white !important;
+  font-size: 14px !important;
+}
+.bank_title {
+  color:black;
+  margin-left:0px !important;
+  font-size: 20px;
+  font-weight: 700;
+}
+.bank_subtitle {
+  margin-left:0px !important;
+  font-size: 12px;
+}
+.bankbtn {
+  text-transform: unset !important;
+  font-size: 15px;
+  background-color: #4f4f4f !important;
+  color: rgb(255, 255, 255)!important;
+}
+.bankbtn.delete {
+  text-transform: unset !important;
+  background-color: #B1000E !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+.bankbtn.upload {
+  text-transform: unset !important;
+  background-color: #4f4f4f !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+.sectionbg {
+  background-color: #fff !important;
+  margin: 0px -2px !important;
+}
+
+.notEditable label {
+  color: black;
+}
+.notEditable input {
+  pointer-events: none;
+}
+.notEditable button {
+  pointer-events: none;
+}
+
+.editable input{
+  pointer-events: auto !important;
+  color: black;
+}
+.editable input {
+  background-color: white;
+}
+
+.bank-input input[type='file'] {
+  display: none;
+}
+
+.bank-input label {
+  cursor: pointer;
+  background-color: #b1000e;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 3% 7% !important;
+  text-align: center;
+  border: 1px solid #b1000e;
+  font-size: 12px;
+  text-transform: uppercase;
+  position: relative;
+  top: 8px;
+  color: #fff;
+}
+
+.bank-input .deleteFile:focus {
+  outline: none !important;
+}
+.bank-input .deleteFile {
+  cursor: pointer;
+  text-transform: unset !important;
+  background-color: #b1000e !important;
+  color: white !important;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 2% 10%;
+  text-align: center;
+  border: 1px solid #b1000e;
+  font-size: 16px;
+  position: relative;
+  top: 32px;
+  outline: none !important;
+}
